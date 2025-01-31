@@ -34,7 +34,7 @@ func main() {
 		return
 	}
 	defer connection.Close()
-	fmt.Println("UDP sunucusu port 8080 dinliyor")
+	fmt.Println("UDP sunucusu port dinliyor")
 
 	buffer := make([]byte, 1024)
 
